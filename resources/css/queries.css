@@ -1,0 +1,278 @@
+
+
+
+/*Big Tablet to 1200px (WIDTH SMALLER THAN THE  1140PX ROW)*/
+@media only screen and (max-width: 1200px) {
+  .row{padding: 0 2%;}
+.col{
+  margin-left: 330px;
+}
+  .contact-us {
+    width: 100%;
+}
+.cities img{
+  width: 230px;
+}
+
+.section-plans div{
+  font-size: 17px;
+}
+.big-icon{
+    margin: 0 auto;
+}
+.cities-sections .row{
+  width: 100%;
+}
+}
+/*Small tablet to big tablet = 768px - 1023 */
+@media only screen and (max-width: 1023px) {
+
+
+  .row{padding: 0 2%;}
+
+  body{
+    font-size: 14px;
+  }
+  section{
+    padding: 50px 0;
+  }
+  .logo{
+    width: 100px;
+    height: auto;
+    padding-top: 10px;
+  }
+  .row{width: 95%;
+  margin-left: 5%;}
+
+  .icon-header{
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .big-icon{
+      font-size: 45px;
+      margin: 0 auto;
+  }
+
+  .showcase-box ul li img{
+    height: 200px;
+  }
+  .phone{
+    margin-left: 100px;
+    margin-top: -35px;
+  }
+  .shop{
+    width: 130px;
+    height: auto;
+    padding-left: 5px;
+    margin-top: -35px;
+  }
+  .cities img{
+    width: 155px;
+  }
+  .cities-text p{
+    font-size: 10px;
+
+  }
+
+  .cities i{
+
+    font-size: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+
+.plan-box div h3{
+  font-size: 13px;
+  padding-top: 10px;
+}
+.plan-product{
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.plan-product span{
+  font-size: 10px;
+}
+.plan-box li{
+  font-size: 11px;
+}
+
+.plan-box div i{
+
+  font-size: 14px;
+  width: 20px;
+  margin-right: 3px;
+}
+
+.btn:visited,
+.btn:link{
+  padding: 5px 8px;
+  left: 10%;
+  top: 50%;
+  margin-left: 10px;
+
+}
+
+.footer-nav li{
+  float: left;
+  margin-left: 10px;
+}
+.footer-nav{
+  font-size: 12px;
+}
+.footer-nav a:hover,
+.copy{
+  font-size: 15px;
+}
+
+}
+
+
+/*for small phones to small tablet = from 481px - 767px */
+@media only screen and (max-width: 767px) {
+.row{ padding: 0 4%;
+}
+
+section{
+  padding: 30px 0;
+}
+
+body{
+  font-size: 20px;
+}
+
+.col.span-1-of-3{
+  width: 100%;
+}
+.col.span-1-of-4{
+  width: 80%;
+}
+.col.span-1-of-2{
+  width: 100%;
+}
+.plan-box div h3 {
+    font-size: 25px;
+}
+.plan-box div ul li i{
+  font-size: 25px;
+}
+
+.plan-product {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.plan-product span{
+  font-size: 20px;
+}
+.cities-text p{
+  font-size: 20px;
+}
+.cities img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.cities-text p:last-of-type{
+  margin-bottom: 2em;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+.work-step {
+    margin-bottom: 40px;
+}
+.work-step div {
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+}
+.section-plans div {
+    font-size: 20px;
+}
+.plan-box li {
+    font-size: 20px;
+    padding-left: 30px;
+}
+/* div i{
+  width: 30px;
+  padding-right: 50px;
+} */
+.span-1-of-2{
+  width: 90%;
+}
+.footer-nav{
+  padding-bottom: 40px;
+    padding-right: 10%
+}
+.social-icon-footer{
+  margin-right: 25%;
+}
+.Copyright {
+    font-size: 17px;
+}
+.work-step:last-of-type {
+    margin-bottom: 90px;
+}
+
+
+.mobile-nav-icon{
+  display: inline-block;
+}
+
+
+.mobile-nav-icon i{
+  font-size: 50px;
+}
+.main-nav {
+  float: left;
+    display: none;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+  border:0;
+  font-size: 14px;
+}
+.main-nav li {
+  padding-bottom: 0;
+      margin-top: 10px;
+
+}
+
+.main-nav li:first-of-type {
+      margin-top: 30px;
+}
+
+.sticky .mobile-nav-icon i{
+  color: #43b962;
+}
+
+}
+
+
+
+
+
+
+/*Small Phone from 0 - 480px */
+@media only screen and (max-width: 480px) {
+  .shop:last-child {
+
+      margin-top: 8px;
+  }
+  .work-step:last-of-type {
+    margin-bottom: 50px;
+}
+.main-nav li{
+  display: block;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+  display: block;
+  border:0;
+}
+}
